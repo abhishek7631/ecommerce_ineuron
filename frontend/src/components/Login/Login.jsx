@@ -15,7 +15,7 @@ const Login = () => {
     const handleLogin = async (e) => {
         setLoading(true)
         e.preventDefault()
-        let result = await fetch("http://localhost:4000/login", {
+        let result = await fetch("https://ecommerce-ineuron.onrender.com/login", {
             method: 'post',
             body: JSON.stringify({ email, password }),
             headers: {

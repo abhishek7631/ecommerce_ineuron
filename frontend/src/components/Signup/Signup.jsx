@@ -24,7 +24,7 @@ const Signup = () => {
     const registerUser = async (e) => {
         e.preventDefault()
 
-        let result = await fetch('http://localhost:4000/register', {
+        let result = await fetch('https://ecommerce-ineuron.onrender.com/register', {
             method: 'post',
             body: JSON.stringify({ firstName, lastName, email, password }),
             headers: {

@@ -6,6 +6,7 @@ const pool = new Pool({
   host: "dpg-cpmkb488fa8c73ajlpr0-a.oregon-postgres.render.com",
   port: 5432,
   database: "abhidb_krgw",
+  ssl: true,
 });
 
 module.exports = pool;
