@@ -1,0 +1,23 @@
+/* src/OrderPlaced.css */
+.order-placed {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+}
+
+.order-placed h1 {
+    color: #4CAF50;
+}
+
+.order-placed ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-placed li {
+    margin: 5px 0;
+}

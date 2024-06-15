@@ -1,0 +1,13 @@
+/* Product Card */
+
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.noProduct {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Product Card End */
