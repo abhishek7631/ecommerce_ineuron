@@ -48,6 +48,8 @@ const Login = () => {
 
                 <button className='submitButton' onClick={(e) => handleLogin(e)}>{isLoading ? <CircularProgress /> : "Login"}</button>
             </form>
+            <p style={{ color: 'red'}}>Note: 1st Login/Register may take upto 50 seconds time as the backend is running on free server.</p>
+
         </div>
     )
 }
